@@ -1,5 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
+User-agent: \*
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
