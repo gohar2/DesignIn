@@ -1,0 +1,91 @@
+.textBarDiv {
+  padding: 2rem;
+}
+.headingTextSidebar {
+  color: white;
+  font: 400 2rem NeoSans;
+}
+.headingTextSidebar_Ar {
+  color: white;
+  font: 400 2rem NeoSans-Arabic;
+  text-align: right;
+}
+.headingTextSidebarName::placeholder {
+  font-size: 1.8rem;
+}
+.headingTextSidebarName {
+  color: #414143;
+  height: 5rem;
+  background-color: #fff;
+  font: 400 1.8rem NeoSans;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  border: 0;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.fontSizeDiv {
+  background-color: #333b4a;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 4.2rem;
+  margin-bottom: 5rem;
+}
+.createFolderHeading_Ar {
+  color: white;
+  font: 400 1.8rem NeoSans-Arabic;
+  cursor: pointer;
+  margin: 0;
+}
+.textBarFontDiv {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.textBarFontSidebar {
+  color: #b5b5b5;
+  font: 400 1.8rem NeoSans;
+  min-width: 12rem;
+}
+.textBarFontSidebarEditor {
+  color: #b5b5b5;
+  font: 400 1.8rem NeoSans;
+  min-width: 12rem;
+  margin: 0.8rem 0;
+}
+.textBarFontSidebar_Ar {
+  min-width: 12rem;
+  color: #b5b5b5;
+  font: 400 1.8rem NeoSans-Arabic;
+  margin-bottom: 0.5rem;
+}
+.valueDivSidebar {
+  text-align: center;
+  margin: 5px 0px 0px 30px;
+  border-radius: 5px;
+  background-color: #333b4a;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+.valueDivSidebar_Ar {
+  text-align: center;
+  margin: 6px 17px 0px 0px;
+  border-radius: 5px;
+  background-color: #333b4a;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+.textBarSeparationLine {
+  padding: 0px 10px;
+  margin: 40px 0px 0px 0px;
+  background-color: white;
+}

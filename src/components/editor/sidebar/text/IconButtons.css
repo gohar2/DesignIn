@@ -1,0 +1,136 @@
+.textBarIconsFirstDiv {
+  display: flex;
+  color: #414143;
+  height: auto;
+  justify-content: right;
+  align-items: center;
+}
+.selectedTextBtnDiv {
+  text-align: center;
+  background-color: #fff;
+  text-align: center;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+}
+.customHrEditor {
+  border-top: 1px solid #54575d;
+}
+.selectedTextBtnDiv .textBoldBtn {
+  background-color: rgb(172, 165, 165) !important;
+}
+.btnDropShadow {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: NeoSans;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  width: 18rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+.btnDropShadow_Ar {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: NeoSans-Arabic;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  width: 18rem;
+  height: 5rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+.textBoldBtnDiv,
+.textItalicBtnDiv,
+.textUnderlineBtnDiv,
+.textAlignJustifyBtnDiv {
+  text-align: center;
+  margin-right: 1rem;
+}
+/* .textBoldBtnDiv_Ar{
+  margin-left: 1rem;
+  text-align: center;
+} */
+.textBoldBtn {
+  background-color: #333b4a;
+  border: none;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+.textBoldBtn1 {
+  background-color: #333b4a;
+  border: none;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+.textBoldBtn:focus,
+.editableInputFeild:focus {
+  outline: 0;
+}
+.textBarIconDD {
+  height: auto;
+  width: 2rem;
+  color: #414143;
+}
+.textBarIcon {
+  height: 20px;
+  width: 24px;
+  color: #414143;
+}
+.textBarIconsSecondDiv {
+  display: grid;
+  grid-template-columns: 25% 25% 17% 17% 17%;
+  color: #414143;
+}
+.textBarIconDiv {
+  text-align: center;
+  border-radius: 5px;
+  margin: 12px 2px 10px 2px;
+  padding-top: 10px;
+}
+.textBarIconDiv:hover {
+  background-color: #333b4a;
+}
+
+.alignRightIcon {
+  height: 27px;
+  width: 27px;
+}
+.alignmentOptions {
+  background-color: #333b4a;
+  border: none;
+  height: 4.5rem;
+  width: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3rem;
+}
+.selectedAlignmentOption .textBoldBtn1 {
+  background-color: #a5a5a5;
+}
+.selectedAlignmentOption {
+  background-color: #a5a5a5;
+  text-align: center;
+  border-radius: 0.3rem;
+}
+.textColorDiv {
+  height: 27px;
+  width: 27px;
+  border-radius: 3px;
+  margin: 0px auto;
+}
+.textColorPickerDiv {
+  width: 50px;
+}
+.textBarSeparationLine {
+  visibility: hidden;
+}

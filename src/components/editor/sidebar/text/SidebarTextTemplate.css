@@ -1,0 +1,234 @@
+.sidebarContent {
+  background-color: #222834;
+  border-top-left-radius: 15px;
+  border: 0px solid black;
+  padding: 0px;
+}
+.sidebarContentCloseBtn {
+  border: none;
+  background-color: transparent;
+  color: #9b9b9b;
+}
+.sidebarContentCloseBtn:focus {
+  outline: 0;
+}
+.sidebarContentBtnsDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+.sidebarContentPaidBtn {
+  grid-column-start: 1;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  padding-right: 0px;
+  font-size: 14px;
+}
+.sidebarContentPaidBtn:focus {
+  background-color: #222834;
+  border-top-left-radius: 15px;
+  border: 0px solid black;
+  padding: 0px;
+}
+.sidebarContentCloseBtn {
+  border: none;
+  background-color: transparent;
+  color: #9b9b9b;
+}
+.sidebarContentCloseBtn:focus {
+  outline: 0;
+}
+.sidebarContentBtnsDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 10px;
+}
+.sidebarContentPaidBtn {
+  grid-column-start: 1;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  padding-right: 0px;
+  font-size: 14px;
+}
+.sidebarContentPaidBtn:focus {
+  outline: 0;
+}
+#paidBtnId {
+  opacity: 1;
+}
+#paidBtnIdDull {
+  opacity: 0.65;
+}
+#freeBtnIdDull {
+  opacity: 0.65;
+}
+#freeBtnId {
+  opacity: 1;
+}
+.sidebarContentFreeBtn {
+  grid-column-start: 2;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 0px;
+  font-size: 14px;
+}
+.sidebarContentFreeBtn:focus {
+  outline: 0;
+}
+.paidBtnLine {
+  background-color: #ffffff;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.freeBtnLine {
+  margin-right: 15px;
+  background-color: #ffffff;
+  margin-top: 3px;
+}
+.sidebarContentSearchBarDiv {
+  margin: 0 2rem;
+}
+.textSubHeading {
+  color: #fff;
+  opacity: 0.65;
+  font: 400 1.8rem NeoSans;
+  margin-bottom: 0;
+}
+.textSubHeading_Ar {
+  color: #fff;
+  opacity: 0.65;
+  font: 400 1.8rem NeoSans-Arabic;
+  margin-bottom: 0;
+  direction: rtl;
+  text-align: right;
+}
+.uploadImage {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: none;
+  height: 5rem;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  color: #ffffff;
+  font: 400 2rem NeoSans;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.templatesHead {
+  background-color: #0e1318;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 1px;
+  border-top-left-radius: 0;
+  height: 7rem;
+}
+.templatesHead h1 {
+  text-align: center;
+  font: 400 2rem NeoSans;
+}
+.arabicText {
+  margin: 10px 10px 10px -22px;
+  cursor: pointer;
+  background-color: rgb(244, 244, 245);
+  border-radius: 5px;
+  padding: 8px;
+}
+.arabicText span {
+  float: right;
+  font: 400 14px NeoSans-Arabic;
+}
+.hmgh2 {
+  margin-left: 20px;
+  color: #ffffff;
+  font: 400 16px NeoSans;
+}
+.textBtn {
+  color: #ffffff;
+  border: transparent;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+.fontsDiv {
+  color: #c6c6c8;
+  width: 100%;
+  margin-left: 0;
+}
+.fontsDiv p {
+  margin-bottom: 0rem;
+  /* letter-spacing: 2px; */
+  font: 400 2rem NeoSans;
+}
+.textBtn1 {
+  font: 400 3rem NeoSans-Bold;
+}
+.textBtn2 {
+  font: 400 2.2rem NeoSans;
+  opacity: 0.9;
+}
+.textBtn3 {
+  font: 300 1.4rem NeoSans;
+  opacity: 0.8;
+}
+.arabicTextBtn1 {
+  font: 400 3rem NeoSans-Arabic;
+  text-align: right;
+  height: 7rem;
+}
+.arabicTextBtn2 {
+  font: 400 2.2rem NeoSans-Arabic;
+  text-align: right;
+  height: 5.8rem;
+}
+.arabicTextBtn3 {
+  text-align: right;
+  height: 4.8rem;
+  font: 300 1.4rem NeoSans-Arabic;
+}
+.textBtn1 {
+  height: 7rem;
+}
+.textBtn2 {
+  height: 5.8rem;
+}
+.textBtn3 {
+  height: 4.8rem;
+}
+.textBtns {
+  background-color: #333b4a;
+  border-radius: 0.3rem;
+  padding: 0 1.5rem;
+}
+.textBtnsDiv {
+  width: 100%;
+  padding: 0 2rem;
+}
+.textSubHEadingDiv {
+  width: 100%;
+  padding: 3rem 2rem;
+}
+.customColor {
+  color: #ffffff;
+  font: 600 20px NeoSans;
+  margin: 32px 22px;
+}
+.customColor_Ar {
+  color: #ffffff;
+  font: 400 19px NeoSans-Arabic;
+  margin: 32px 22px;
+  text-align: right;
+}
+.textColorPickerDiv {
+  margin-top: 500px;
+  margin-left: 13px;
+}
+.textColorLineBreaker {
+  background: white;
+  margin-right: 10px;
+}

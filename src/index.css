@@ -1,0 +1,477 @@
+html,
+body,
+#root {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: #333;
+  letter-spacing: 1px;
+  background-color: white;
+  font-weight: 300;
+}
+/* Scroller */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6f72fb;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6f72fb;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+
+::selection {
+  color: #fff;
+  background: #6f72fb;
+}
+@font-face {
+  font-family: 'NeoSans';
+  src: url(./font/neo-sans-std-light.otf) format('truetype');
+}
+@font-face {
+  font-family: 'NeoSans-Bold';
+  src: url(./font/neo-sans-w1g-543.otf) format('truetype');
+}
+@font-face {
+  font-family: 'NeoSans-Arabic';
+  src: url(./font/NeoSansArabic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NeoSans-Arabic-Bold';
+  src: url(./font/NeoSansArabicBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Anton-Regular';
+  src: url(./font/Anton-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Bangers-Regular';
+  src: url(./font/Bangers-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  src: url(./font/BebasNeue-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'BlackHanSans-Regular';
+  src: url(./font/BlackHanSans-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'BubblegumSans-Regular';
+  src: url(./font/BubblegumSans-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Chewy-Regular';
+  src: url(./font/Chewy-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel-VariableFont';
+  src: url(./font/Cinzel-VariableFont_wght.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'FjallaOne-Regular';
+  src: url(./font/FjallaOne-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'GloriaHallelujah-Regular';
+  src: url(./font/GloriaHallelujah-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'GreatVibes-Regular';
+  src: url(./font/GreatVibes-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gruppo-Regular';
+  src: url(./font/Gruppo-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'IndieFlower-Regular';
+  src: url(./font/IndieFlower-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'JockeyOne-Regular';
+  src: url(./font/JockeyOne-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url(./font/Lobster-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'NanumPenScript-Regular';
+  src: url(./font/NanumPenScript-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Orienta-Regular';
+  src: url(./font/Orienta-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'PlayfairDisplaySC-Regular';
+  src: url(./font/PlayfairDisplaySC-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Righteous-Regular';
+  src: url(./font/Righteous-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Sacramento-Regular';
+  src: url(./font/Sacramento-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Staatliches-Regular';
+  src: url(./font/Staatliches-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Almarai-Regular';
+  src: url(./font/Almarai-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Amiri-Regular';
+  src: url(./font/Amiri-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'ArefRuqaa-Regular';
+  src: url(./font/ArefRuqaa-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo-Regular';
+  src: url(./font/Cairo-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Changa-VariableFont';
+  src: url(./font/Changa-VariableFont_wght.otf) format('truetype');
+}
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: url(./font/ElMessiri-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Harmattan-Regular';
+  src: url(./font/Harmattan-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Jomhuria-Regular';
+  src: url(./font/Jomhuria-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Katibeh-Regular';
+  src: url(./font/Katibeh-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Kufam-VariableFont';
+  src: url(./font/Kufam-VariableFont_wght.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Lalezar-Regular';
+  src: url(./font/Lalezar-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Lateef-Regular';
+  src: url(./font/Lateef-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Lemonada-VariableFont';
+  src: url(./font/Lemonada-VariableFont_wght.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Mada-Regular';
+  src: url(./font/Mada-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'MarkaziText-VariableFont';
+  src: url(./font/MarkaziText-VariableFont_wght.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Mirza-Regular';
+  src: url(./font/Mirza-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Rakkas-Regular';
+  src: url(./font/Rakkas-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'ReemKufi-Regular';
+  src: url(./font/ReemKufi-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Scheherazade-Regular';
+  src: url(./font/Scheherazade-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Tajawal-Regular';
+  src: url(./font/Tajawal-Regular.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Vibes-Regular';
+  src: url(./font/Vibes-Regular.otf) format('truetype');
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.page:nth-child(2n) {
+  background: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.moveable {
+  position: absolute;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px auto;
+  font-weight: 100;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.moveable span {
+  position: initial;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.moveable2 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px auto;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.moveable2 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.description {
+  text-align: center;
+}
+
+.badges {
+  padding: 10px;
+  text-align: center;
+}
+
+.badges img {
+  height: 20px;
+}
+
+.buttons.able a {
+  min-width: auto;
+  padding: 8px 20px;
+}
+
+.buttons {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.buttons a,
+.buttons button {
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+  padding: 12px 30px;
+  min-width: 140px;
+  text-align: center;
+  /* font-weight: 400; */
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 5px;
+  transition: all ease 0.5s;
+  font-size: 15px;
+  background: transparent;
+}
+.buttons button:hover,
+.buttons button.selected,
+.buttons a:hover,
+.buttons a.selected {
+  background: #333;
+  color: #fff;
+}
+
+.page.main {
+  z-index: 1;
+  min-height: 700px;
+}
+
+.label {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  border-radius: 5px;
+  background: #333;
+  z-index: 3001;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  display: none;
+  transform: translate(-100%, -100%);
+}
+
+.page.feature,
+.page.footer {
+  height: auto;
+  text-align: left;
+  padding: 60px 20px;
+}
+
+.page.feature .container,
+.page.footer .container {
+  top: 0;
+  left: 0;
+  padding: 60px 0px;
+  margin: auto;
+  transform: none;
+  width: auto;
+  max-width: 800px;
+}
+
+.page.feature .container {
+  display: flex;
+}
+
+.page.footer .container {
+  padding: 0px;
+}
+
+.page.feature h2.container {
+  padding: 10px 0px;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.feature .container .left {
+  position: relative;
+  width: 300px;
+  height: 205px;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 2000;
+  margin-bottom: 20px;
+}
+
+.feature .container .right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  flex: 1;
+}
+
+.feature .right .description {
+  text-align: left;
+  margin: 0px 0px 10px;
+}
+
+.feature .right .description strong {
+  font-weight: 600;
+}
+
+.draggable,
+.scalable,
+.rotatable,
+.origin,
+.warpable,
+.pinchable {
+  position: absolute;
+  left: 0;
+}
+.resizable {
+  position: absolute;
+}
+
+.origin {
+  transform-origin: 30% 50%;
+}
+
+pre {
+  position: relative;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 10px;
+  max-width: 500px;
+}
+
+code.hljs {
+  padding: 0;
+}
+
+.tab {
+  padding: 10px 12px;
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.tab.selected {
+  background: #333;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.panel {
+  display: none;
+}
+
+.panel.selected {
+  display: block;
+}
+
+.page.footer {
+  font-weight: 400;
+}
+
+.page.footer a {
+  text-decoration: underline;
+}
+
+.page.footer span:first-child:before {
+  content: '';
+}
+
+.page.footer span:before {
+  content: '/';
+}
+.rCSoh6iy8 {
+  z-index: 2 !important;
+}

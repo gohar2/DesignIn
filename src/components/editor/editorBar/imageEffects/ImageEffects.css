@@ -1,0 +1,56 @@
+/* .imageEffectsTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 35px;
+}
+.imageEffectsDiv {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 20px 0px 20px;
+}
+.imageEffectsIconsDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.imageEffectsIcon {
+  background-color: #ecf1f4;
+}
+.ima/* .imageEffectsTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 35px;
+}
+.imageEffectsDiv {
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 20px 0px 20px;
+}
+.imageEffectsIconsDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-gap: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.imageEffectsIcon {
+  background-color: #ecf1f4;
+}
+.imageEffectIconDivContainer {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+.imageEffectIconDiv {
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 35px;
+} */

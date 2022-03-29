@@ -1,0 +1,29 @@
+.flipTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 20px;
+  display: none;
+}
+.flipDiv {
+  background-color: white;
+  border-radius: 3px;
+  padding: 4px 10px !important;
+  width: auto;
+}
+.flipIconsDiv {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.flipIcons {
+  height: 27px;
+  width: 27px;
+}
+.f-1 {
+  flex: 1;
+}

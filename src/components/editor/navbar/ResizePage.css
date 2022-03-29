@@ -1,0 +1,79 @@
+.resizePageDiv {
+  position: absolute;
+  border-radius: 3px;
+  border: 1px solid #e6e9f1;
+  background-color: #ffffff;
+  top: 8px;
+  left: 17px;
+  padding: 5px;
+  width: 85%;
+}
+.headerDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.resizePageInnerDiv {
+  border: 1px solid #e6e9f1;
+  border-radius: 5px;
+}
+.customDimensionHeading {
+  font-size: 11px;
+  float: right;
+  margin-bottom: 4px;
+}
+.resizePageInputDiv {
+  padding: 10px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 1fr;
+}
+.multiply {
+  margin: 0px 5px 0px 5px;
+  color: #e6e9f1;
+  font-size: 11px;
+  padding-top: 10px;
+}
+.resizePageBtn {
+  width: 100%;
+}
+.resizePageInput {
+  font-size: 13px;
+  width: 90px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #e6e9f1;
+  padding-left: 5px;
+}
+.resizePageInput::placeholder {
+  padding-left: 3px !important;
+}
+.resizePageBtn {
+  font-size: 11px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3d6dee;
+  height: 30px;
+  color: white;
+}
+.resizePageUnitBtn {
+  border-radius: 5px;
+  background-color: #f6f7f9;
+  border: none;
+  font-size: 13px;
+  width: 30px;
+  margin-left: 5px;
+  height: 35px;
+}
+.resizePageBtnDiv {
+  padding: 0px 12px 12px 12px;
+}
+.resizePageLabel {
+  font-size: 13px;
+}
+.customDimensionHeadingDiv {
+  margin-bottom: 15px;
+}
+.resizePageErrors {
+  color: red;
+  font-size: 7px;
+  padding: 10px 0px 10px 10px;
+}

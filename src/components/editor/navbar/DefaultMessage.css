@@ -1,0 +1,25 @@
+.btnDefaultMsgLoginSignup {
+  white-space: nowrap;
+  border: none;
+  color: #6253df;
+  margin: 0 1rem;
+}
+.defaultMessageTxt {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  height: 100%;
+  font-family: NeoSans;
+  font-size: 1.8rem;
+}
+.defaultMessageTxt_Ar {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  height: 100%;
+  font-family: 'NeoSans-Arabic';
+  font-size: 1.8rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  direction: rtl;
+}

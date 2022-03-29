@@ -1,0 +1,292 @@
+.AuthenticationBg {
+  width: 100%;
+  height: 100vh;
+}
+.flex1 {
+  flex: 1;
+}
+.leftBg {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  box-shadow: 0px 4px 30px rgba(63, 111, 241, 0.3);
+}
+/* .navbar-nav{
+    visibility: hidden;
+} */
+.customInput {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #9b9b9b;
+  margin-top: 2rem;
+  height: 29px !important;
+  border-radius: 20px !important;
+  padding: 15px 15px !important;
+}
+.mart2,
+.forgotTxt,
+.forgotTxt_Ar {
+  margin-top: 2rem;
+}
+
+.flex1 {
+  flex: 1;
+}
+.leftBg {
+  width: 100%;
+  height: 100vh;
+  background: white;
+
+  box-shadow: 0px 4px 30px rgba(63, 111, 241, 0.3);
+}
+/* .navbar-nav{
+    visibility: hidden;
+} */
+.customInput {
+  padding: 2.8rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #9b9b9b;
+  margin-top: 2rem;
+  font-size: 15px !important;
+}
+.mart2,
+.forgotTxt,
+.forgotTxt_Ar {
+  margin-top: 2rem;
+}
+.customInput_Ar {
+  padding: 2.8rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  color: #9b9b9b;
+  text-align: right;
+  margin-top: 2rem;
+}
+.customInput::placeholder {
+  font-size: 1.8rem;
+  color: #9b9b9b;
+}
+.customInput_Ar::placeholder {
+  font-size: 1.8rem;
+  color: #9b9b9b;
+}
+.loginHeading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: -0.7px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.loginHeading_Ar {
+  font-family: NeoSans-Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+  letter-spacing: 0;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.subltext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #9b9b9b;
+}
+.forgotPassworddt3new {
+  color: #9b9b9b;
+  font: 400 1.8rem NeoSans;
+}
+.forgotPassworddt3Arabicnew {
+  color: #9b9b9b;
+  font: 400 1.8rem NeoSans-Arabic;
+  text-align: right;
+}
+.subltext_Ar {
+  font-family: NeoSans-Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #9b9b9b;
+  letter-spacing: 0;
+}
+.flex18 {
+  flex: 1.8;
+}
+.txtRemember {
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+.txtRemember_Ar {
+  font-family: NeoSans-Arabic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+.forgotTxt {
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+.forgotTxt_Ar {
+  font-family: NeoSans-Arabic;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+}
+.buttonAuth {
+  background: linear-gradient(
+    93.62deg,
+    #6253df 15.37%,
+    #4967ec 70.7%,
+    #2b7efb 135.44%
+  );
+  box-shadow: 1px 3px 10px 0px rgba(63, 111, 241, 0.3);
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.clearBoth {
+  clear: both;
+}
+.buttonAuth_Ar {
+  background: linear-gradient(
+    93.62deg,
+    #6253df 15.37%,
+    #4967ec 70.7%,
+    #2b7efb 135.44%
+  );
+  box-shadow: 1px 3px 10px 0px rgba(63, 111, 241, 0.3);
+  border-radius: 3px;
+  font-family: NeoSans-Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #ffffff;
+}
+.signUpTesmem {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  color: #9b9b9b;
+}
+.signUpTesmem_Ar {
+  font-family: NeoSans-Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: #9b9b9b;
+  direction: rtl;
+  letter-spacing: 0;
+}
+.forgotPassworddt3 {
+  color: #808080b8;
+  font: 400 1.8rem NeoSans;
+}
+.signUpTesmemdiv {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #9b9b9b;
+}
+.textred {
+  color: red;
+  box-shadow: 1px 3px 10px 0px rgba(244, 67, 54, 0.13);
+}
+.facebookLogo {
+  margin-right: 10px;
+}
+.colorFB {
+  color: #3b5998;
+  box-shadow: 1px 3px 10px 0px rgb(59 89 152 / 20%);
+}
+.textApple {
+  box-shadow: 1px 3px 10px 0px rgba(65, 65, 67, 0.15);
+}
+.signUpTesmem a,
+.forgotTxt a {
+  color: #6253df !important;
+}
+
+.AuthenticationBg .parentClassBtn {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.AuthenticationBg .parentClassBtng {
+  font-size: 1.8rem;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.AuthenticationBg .parentClassBtn {
+  width: 94%;
+}
+
+@media (max-width: 767px) {
+  .height100vh {
+    height: 100vh;
+  }
+  .leftBg {
+    display: none;
+  }
+}
+
+.inputs {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e2e1dc;
+  padding: 4px 20px;
+  border-radius: 5px;
+  font: 400 16px NeoSans;
+}
+.inputsArabic {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e2e1dc;
+  padding: 4px 20px;
+  border-radius: 5px;
+  text-align: right;
+  font: 400 16px NeoSans-Arabic;
+}
+.inputs:focus {
+  outline: 0;
+}
+.picon {
+  height: 35px;
+  width: 35px;
+  margin-top: 3px;
+  float: left;
+}
+.dc {
+  margin-bottom: 0px;
+  width: 90%;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.dc_Ar {
+  margin-bottom: 0px;
+  width: 90%;
+  height: 40px;
+  margin-top: 35px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}

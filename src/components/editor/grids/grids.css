@@ -1,0 +1,22 @@
+.gridDiv {
+  object-fit: cover;
+}
+
+.moveableImgHorizontal {
+  position: absolute;
+  height: auto;
+  z-index: 1;
+}
+.moveableImgVertical {
+  position: absolute;
+  width: auto;
+  z-index: 1;
+}
+.moveableImgFullPage {
+  position: absolute;
+  z-index: 1;
+}
+.doneClass {
+  width: 100%;
+  position: absolute;
+}

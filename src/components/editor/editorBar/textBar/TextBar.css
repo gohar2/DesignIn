@@ -1,0 +1,146 @@
+.textBarFontBtn {
+  width: 90%;
+  background-color: #414143;
+  color: #abafbd;
+  border: none;
+  text-align: left;
+  height: 40px;
+}
+
+.textBarColorBtn {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+.textBarColorBtn:focus {
+  outline: 0;
+}
+.textBarTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 30px;
+}
+.editableInputFeild:focus,
+.dropdown-toggle.btn.btn-success:focus {
+  outline: 0;
+}
+.editableInputFeild {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 5px;
+  font-size: 9px;
+}
+.sliderHeadingDiv {
+  color: #414143;
+}
+.dropdown-toggle.btn.btn-secondary {
+  background-color: #414143;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+  font-size: 9px !important;
+  height: 30px;
+  border-radius: 5px;
+}
+.dropdown-toggle::after {
+  margin-left: 45px;
+}
+.editorBarDropdownMenu {
+  background-color: transparent !important;
+  width: 100%;
+  top: 5px !important;
+  border: none;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0px !important;
+  vertical-align: 0em;
+  content: '';
+  border-top: 0em solid;
+  border-right: 0em !important;
+  border-bottom: 0;
+  border-left: 0em !important;
+}
+.downArrow {
+  height: 25px;
+  width: 25px;
+  padding-bottom: 15px;
+  float: right;
+}
+.textBarFont,
+.textBarColorBtn {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+.textBarColorBtn:focus {
+  outline: 0;
+}
+.textBarTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 30px;
+}
+.editableInputFeild:focus,
+.dropdown-toggle.btn.btn-success:focus {
+  outline: 0;
+}
+.editableInputFeild {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 5px;
+  font-size: 9px;
+}
+.sliderHeadingDiv {
+  color: #414143;
+}
+.dropdown-toggle.btn.btn-secondary {
+  background-color: #414143;
+  border: none;
+  width: 100%;
+  border-radius: 0;
+  text-align: left;
+  font-size: 9px !important;
+  height: 30px;
+  border-radius: 5px;
+}
+.dropdown-toggle::after {
+  margin-left: 45px;
+}
+.editorBarDropdownMenu {
+  background-color: transparent !important;
+  width: 100%;
+  top: 5px !important;
+  border: none;
+}
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0px !important;
+  vertical-align: 0em;
+  content: '';
+  border-top: 0em solid;
+  border-right: 0em !important;
+  border-bottom: 0;
+  border-left: 0em !important;
+}
+.downArrow {
+  height: 25px;
+  width: 25px;
+  padding-bottom: 15px;
+  float: right;
+}
+.textBarFont,
+.TextBarDropDownMenuItem {
+  font-size: 15px;
+}

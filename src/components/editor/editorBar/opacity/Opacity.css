@@ -1,0 +1,19 @@
+.opacityTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 40px;
+}
+.opacityDiv {
+  background-color: white;
+  border-radius: 6px;
+  padding: 2px 10px !important;
+}
+.opacityIconDiv {
+  text-align: center;
+}
+.opacitySlider {
+  margin-top: 3px;
+}

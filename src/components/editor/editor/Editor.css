@@ -1,0 +1,460 @@
+.MoveableResizeText .moveable-line {
+  /* position: absolute; */
+  /* width: 1px !important; */
+  height: 1px !important;
+  background: #00d9e0 !important;
+  /* transform-origin:.MoveableResizeText .moveable-line {
+  /* position: absolute; */
+  /* width: 1px !important; */
+  height: 1px !important;
+  background: #00d9e0 !important;
+  /* transform-origin: 0px 0.5px !important; */
+}
+.hideFrameBorders .moveable-line {
+  /* position: absolute; */
+  /* width: 1px !important; */
+  height: 0px !important;
+  background: #00d9e0 !important;
+  /* transform-origin: 0px 0.5px !important; */
+}
+
+.moveable-line.moveable-rotation-line {
+  height: 40px !important;
+  width: 2px !important;
+  /* transform-origin: 0.5px 39.5px !important; */
+}
+.moveable-dashed {
+  border-left: var(--zoompx) dashed #6253df !important;
+}
+.moveable-bold {
+  background: #6253df !important;
+}
+.moveable-dashed {
+  border-top: var(--zoompx) dashed #6253df !important;
+}
+.hideFrameButtons .moveable-line.moveable-rotation-line {
+  display: none;
+}
+.hideFrameButtons .moveable-direction.moveable-ne {
+  display: none;
+}
+.hideFrameButtons .moveable-direction.moveable-sw {
+  display: none;
+}
+.hideFrameButtons .moveable-direction.moveable-nw {
+  display: none;
+}
+.hideFrameButtons .moveable-direction.moveable-se {
+  display: none;
+}
+.moveable-direction.moveable-e,
+.moveable-direction.moveable-w {
+  background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important;
+  width: 4px !important;
+  border-radius: 0px !important;
+  margin-left: -2px !important;
+}
+.moveable-direction.moveable-s,
+.moveable-direction.moveable-n {
+  /* background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important; */
+
+  background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important;
+  height: 4px !important;
+  width: 14px !important;
+  border-radius: 0px !important;
+  margin-left: -7px !important;
+  margin-top: -2px !important;
+}
+.moveable-direction.moveable-nw,
+.moveable-direction.moveable-se,
+.moveable-reverse .moveable-direction.moveable-ne,
+.moveable-reverse .moveable-direction.moveable-sw {
+  background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important;
+}
+.moveable-direction.moveable-ne,
+.moveable-direction.moveable-sw,
+.rCSckyn7i.moveable-reverse .moveable-direction.moveable-nw,
+moveable-reverse .moveable-direction.moveable-se {
+  background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important;
+}
+.moveable-control .moveable-direction .moveable-e {
+  width: 4px !important;
+  border-radius: 0px !important;
+  margin-left: -2px !important;
+}
+.moveable-control .moveable-direction .moveable-w {
+  width: 4px !important;
+  border-radius: 0px !important;
+  margin-left: -2px !important;
+}
+.rCS16womlw .moveable-line.moveable-rotation-line .moveable-control {
+  background-color: white !important;
+  box-shadow: 0 0 5px 1px rgba(57, 76, 96, 0.15),
+    0 0 0 1px rgba(53, 71, 90, 0.2) !important;
+  border-color: white !important;
+}
+.rCS16womlw {
+  z-index: 30 !important;
+}
+.pageContainer {
+  background-color: #edf0f2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pageContainerOnDoubleClick {
+  background-color: rgb(200, 205, 211);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pageFullContainer {
+  background-color: #f4f9fa;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 4fr 1fr;
+}
+.zoomInBtn,
+.zoomOutBtn {
+  width: 2.2rem;
+}
+.pageFullContainerPageSize1000 {
+  background-color: #edf0f2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.editorBarsDiv {
+  position: fixed;
+  margin: 25px 0px 0px 35px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  z-index: 1;
+}
+.editorbarMenuListDiv {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.mr-2.btn-group {
+  width: 60%;
+}
+.btn.btn-secondary {
+  padding: 7px 20px 7px 20px;
+  background-color: #414143;
+  border: none;
+  color: #abafbd;
+  border-image: linear-gradient(
+      transparent 20%,
+      #abafbd 20% 80%,
+      transparent 80%
+    )
+    0 0 0 1 / 1px;
+  border-radius: 0.35rem;
+}
+.editorbarTextBarDiv {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin-top: 15px;
+}
+.addPageBtnDiv {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  margin: 0px auto;
+}
+.addPageBtn {
+  width: 100%;
+  background-color: transparent;
+  height: 30%;
+  border-radius: 5px;
+  border-color: #dde0e3;
+  color: grey;
+}
+.addPageBtn:focus {
+  outline: 0;
+  color: grey;
+}
+.dynamicPagesDiv {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.editorPageBtnsDiv {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  display: flex;
+}
+.addBtn {
+  background-color: #eaf0ff;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  padding: 5px 5px 8px 5px;
+  width: 100%;
+}
+.addBtnDiv,
+.fullScreenBtnDiv {
+  flex: 2 1 0;
+  margin-right: 5px;
+}
+.playBtnDiv {
+  flex: 1 1 0;
+}
+.zoomBtnDiv {
+  flex: 3 1 0;
+  margin-right: 5px;
+}
+.addIconPageBtns {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.addIcon {
+  height: 26px;
+  width: 26px;
+}
+.playBtnDiv,
+.fullScreenBtnDiv,
+.zoomBtnDiv,
+.addBtnDiv {
+  border: 1px solid #d0d1ee;
+  border-radius: 20px;
+  padding: 2px 3px 3px 3px;
+  width: 95%;
+}
+.playBtn {
+  background-color: #eaf0ff;
+  border-radius: 20px;
+  border: none;
+  font-size: 10px;
+  width: 100%;
+  padding: 5px 0px 7px 0px;
+}
+.playIcon {
+  margin-right: 4px;
+  height: 15px;
+  width: 15px;
+}
+.zoomBtn {
+  background-color: #eaf0ff;
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  font-size: 10px;
+  padding: 5px 5px 8px 5px;
+}
+.sketch-picker {
+  top: 175px;
+  left: 40px;
+  right: 12px;
+  position: absolute;
+  border: none !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+}
+.fullScreen {
+  width: 100% !important;
+  height: 82vh !important;
+}
+.fullScreenBtn {
+  background-color: #eaf0ff;
+  border-radius: 20px;
+  border: none;
+  font-size: 10px;
+  padding: 5px 5px 7px 5px;
+  width: 100%;
+}
+.fullScreenIcon {
+  height: 15px;
+  margin-right: 15px;
+  margin-bottom: 2px;
+}
+/* .moveable-line.moveable-rotation-line {
+  height: 0px !important;
+  width: 0px !important ;
+  transform-origin: 0.5px 39.5px !important;
+} */
+.zoomFunc {
+  position: fixed;
+  bottom: 3%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 0 1px rgb(0 0 0 / 16%);
+}
+.zoomDiv {
+  /* width: 100%;
+  position: absolute;
+  left: 50%; */
+  height: auto;
+  width: 28rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  bottom: 7%;
+}
+.zomPercentageDiv {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 0 1px rgb(0 0 0 / 16%);
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: absolute;
+  bottom: 12%;
+  width: 7rem;
+  margin-left: -7rem;
+}
+.zoomPercentageBtn {
+  background-color: transparent;
+  border: none;
+  font: 400 1.8rem NeoSans;
+  color: #1a1e23;
+  margin: 0.5rem;
+}
+.zoomPercentageBtn:focus {
+  outline: 0;
+}
+
+.maxWidth10 {
+  max-width: 13rem !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type='range'] {
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #ccc;
+    border-radius: 0.3em;
+    position: relative;
+  }
+  input[type='range'].maxWidth10::-webkit-slider-runnable-track {
+    height: 0.35em;
+    border: none;
+    border-radius: 3px;
+    /* overflow: hidden; */
+  }
+
+  input[type='range'].maxWidth10::-webkit-slider-thumb {
+    border: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: #000 !important;
+    margin-top: -0.2em;
+  }
+
+  input[type='range'].maxWidth10::-webkit-slider-runnable-track {
+    box-sizing: border-box;
+    border: none;
+    height: 3px !important;
+    background: #dedede;
+    border-radius: 2px;
+  }
+  input[type='range'].maxWidth10::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 50%;
+    background: #007bff;
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+    margin-top: -0.38rem !important;
+  }
+
+  input[type='range'].maxWidth10::-webkit-slider-thumb {
+    box-shadow: -100em 0 0 100em #000;
+    border: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: #000;
+    background: white;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    /* 
+      Box-shadow to slider thumb,when color is changed to white,so it'll be visible, but it rewrites old box-shadow ,which is making that selected effect.
+      
+       background: white;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+      */
+    margin-top: -0.2em;
+  }
+
+  input[type='range']:focus {
+    outline: none;
+  }
+}
+
+/*MOZ*/
+input[type='range'].maxWidth10::-moz-range-progress {
+  background-color: #000;
+}
+
+input[type='range'].maxWidth10::-moz-range-track {
+  background-color: #ccc;
+}
+
+/*IE*/
+input[type='range'].maxWidth10::-ms-fill-lower {
+  background-color: #000;
+}
+
+input[type='range'].maxWidth10::-ms-fill-upper {
+  background-color: #ccc;
+}
+
+.zoomValue {
+  background-color: #fff;
+  border-radius: 0.3rem;
+  border: none;
+  font-weight: 400;
+  display: flex;
+  height: auto;
+  align-items: center;
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 5px 0px 5px 0px;
+}
+.zoomfuncDiv {
+  border-radius: 0.3rem;
+  padding: 0;
+  width: auto;
+}
+.zoomValue:focus {
+  outline: 0;
+}
+
+.moveable-control-box .rCS16womlw {
+  display: none !important;
+}
+
+@media (max-width: 1440px) {
+  .zoomDiv {
+    bottom: 9%;
+  }
+}

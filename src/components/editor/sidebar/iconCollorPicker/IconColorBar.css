@@ -1,0 +1,33 @@
+.IconColorheading {
+  color: #ffffff;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.twitter-picker {
+  background-color: #222834 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.twitter-picker > div:nth-child(3) {
+  margin-left: -0.7rem;
+}
+.Iconcolors {
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.IconColorPicker {
+  padding: 3rem 2rem;
+}
+/* .IconColorsGrid .Iconcolors:nth-child(3){
+  clear: both;
+  margin-top: 50px;
+} */
+.twitter-picker > div:nth-child(3) > span > div {
+  width: 5rem !important;
+  height: 5rem !important;
+  margin: 0.7rem !important;
+  border-radius: 0.3rem !important;
+}

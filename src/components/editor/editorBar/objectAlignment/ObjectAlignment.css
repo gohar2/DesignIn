@@ -1,0 +1,68 @@
+.objectAlignmentTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 30px;
+  display: none;
+}
+.objectAlignmentDiv {
+  background-color: white;
+  border-radius: 3px;
+  padding: 1.7rem;
+  height: auto;
+  min-width: 28rem;
+}
+.objectAlignmentIconDiv {
+  text-align: center;
+}
+.objectAlignmentIconsDiv {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 5%;
+  margin: 0px 0px 30px 0px;
+}
+.objectAlignmentIcon {
+  height: 30px;
+  width: 35px;
+  margin-bottom: 5px;
+}
+h6 {
+  color: #414143;
+  font-size: 1.4rem;
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+
+.objectPositionIconsDiv {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 5%;
+  margin: 0px 0px 0px 0px;
+}
+.objectPositionIcon {
+  height: 30px;
+  width: 35px;
+  margin-bottom: 3px;
+}
+.objectPositionIconDiv {
+  text-align: center;
+  border-radius: 0.3rem;
+  padding: 10px;
+  cursor: pointer;
+}
+.selectedObjectPositionIconDiv {
+  text-align: center;
+  background-color: #ecf1f4;
+  border-radius: 0.3rem;
+  padding: 10px;
+  outline: 0px solid #dfe4e8;
+  cursor: pointer;
+}
+.alignmentText_Ar {
+  font-family: NeoSans-Arabic !important;
+  direction: rtl;
+}

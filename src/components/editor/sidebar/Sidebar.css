@@ -1,0 +1,158 @@
+.sidebarMenuItem {
+  margin-top: 30px;
+  position: relative;
+}
+.sidebar {
+  position: fixed;
+  height: 100%;
+  /* z-index: 999; */
+  width: 5%;
+  margin-left: 0;
+  background-color: #0e1318;
+  right: 0;
+  padding-top: 0;
+  padding: 39px 10px;
+}
+.sidebar > div[align='center'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.sidebarButtons {
+  background-color: transparent;
+  border: transparent;
+  font: 400 1.3rem NeoSans;
+  opacity: 0.65;
+  width: 100%;
+  color: #fff;
+  letter-spacing: inherit;
+  text-align: center;
+  margin: 5px;
+  padding: 8% 0 !important;
+}
+.sidebarButtons_Ar {
+  background-color: transparent;
+  border: transparent;
+  font: 400 1.6rem NeoSans-Arabic;
+  width: 100%;
+  opacity: 0.65;
+  color: #fff;
+  text-align: center;
+  letter-spacing: inherit;
+  margin: 5px;
+  padding: 8% 0 !important;
+}
+.sidebarButtons:focus,
+.sidebarButtons_Ar:focus,
+.iconClass:focus {
+  outline: 0;
+}
+.sidebarButtonsPhoto i {
+  font-size: 29px;
+  margin-bottom: 5px;
+}
+
+.iconClass {
+  font-size: 29px;
+  margin-bottom: 5px;
+  fill: #ffffff;
+  stroke: white;
+  stroke-width: 8px;
+  width: 3.3rem;
+  height: auto;
+}
+.sidebarButtonsTemplate:hover,
+.sidebarButtonsPhoto:hover,
+.sidebarButtonsElement:hover,
+.sidebarButtonsText:hover,
+.sidebarButtonsBackground:hover,
+.sidebarButtonsUpload:hover,
+.sidebarButtonsFolder:hover {
+  opacity: 1 !important;
+}
+#id {
+  opacity: 1;
+}
+.helpIconEditor {
+  position: absolute;
+  bottom: 6%;
+  width: 100%;
+}
+input[type='range'].range-slider::-webkit-slider-runnable-track {
+  box-sizing: border-box;
+  border: none;
+  height: 3px !important;
+  background: #dedede;
+  border-radius: 2px;
+}
+input[type='range'].range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50%;
+  background: #007bff;
+  height: 1.2rem !important;
+  width: 1.2rem !important;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+  margin-top: -0.38rem !important;
+}
+#dullId {
+  opacity: 0.65;
+}
+.colorBalanceEditor > div {
+  display: flex;
+  align-items: center;
+}
+.helpIcon {
+  height: 50px;
+  width: 41px;
+}
+.optionsUI {
+  display: block;
+  z-index: +2;
+  background-color: #eaefff;
+  top: 3rem;
+  position: absolute;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+  border-radius: 0.3rem;
+}
+.optionsUI_Ar {
+  left: 7.5%;
+}
+.optionsUI_En {
+  right: 7.5%;
+}
+.optionUI {
+  text-align: justify;
+  font: 600 22px NeoSans;
+  color: #414143;
+  margin-top: 6px;
+}
+/* .optionUI_Ar {
+  text-align: justify;
+  font: 600 22px NeoSans;
+  color: #414143;
+  margin-top: 6px;
+}
+.optionUI_En {
+  text-align: justify;
+  font: 600 22px NeoSans;
+  color: #414143;
+  margin-top: 6px;
+} */
+
+.deleteUI {
+  width: 25px;
+  height: 25px;
+}
+.textBarIconsFirstDiv {
+  display: flex;
+  color: #414143;
+  height: auto;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.designDownDim {
+  font-size: 7px;
+  margin-left: 10px;
+  display: none;
+}
+.designDownDim_ar {
+  font-size: 7px;
+  display: none;
+  float: left;
+  direction: ltr;
+  margin-top: 10px;
+}

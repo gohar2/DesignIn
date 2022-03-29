@@ -1,0 +1,278 @@
+.sidebarFolderContainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  font: 300 14px NeoSans;
+  margin: 0 2rem;
+  overflow-y: auto;
+  height: calc(100% - 15rem);
+}
+.dataContainer {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-column-gap: 4%;
+  grid-row-gap: 5%;
+  margin-right: 10px;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+.sidebarFolderContainer::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 10px;
+}
+.sidebarFolderContainer::-webkit-scrollbar-track {
+  box-shadow: #222834;
+  border-radius: 3px;
+}
+.sidebarFolderContainer::-webkit-scrollbar {
+  width: 0.5em;
+  background: transparent;
+}
+.sidebarFolderHeadingDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 3rem 0;
+  /* margin-top: 1rem; */
+}
+.sidebarFolderHeading {
+  font: 600 26px NeoSans;
+  color: white;
+  margin-left: 5px;
+  padding: 4px 10px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+.backFolderIcon {
+  width: 1.4rem;
+}
+.sidebarEmptyFolder {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  color: white;
+  font: 400 1.8rem NeoSans;
+  text-align: center;
+  margin-top: 10%;
+}
+.sidebarFolderBtnsDiv {
+  display: inline-block;
+  position: relative;
+  padding-right: 0px !important;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 10px;
+}
+.sidebarFolderBtnsDiv:hover .editorFolderDiv {
+  background-color: #414143;
+}
+.sidebarFolderBtnsDiv:hover .sidebaroptionBtn {
+  display: block;
+  position: absolute;
+}
+.sidebarFolderBtnsDiv:hover .sidebaroptionBtn_Ar {
+  display: block;
+  position: absolute;
+}
+.sidebarPictureBtnsDiv {
+  display: inline-block;
+  position: relative;
+  padding-right: 0px !important;
+}
+.sidebarPictureBtnsDiv:hover .sidebaroptionBtn {
+  display: block;
+  position: absolute;
+}
+.sidebarPictureBtnsDiv:hover .sidebaroptionBtn_Ar {
+  display: block;
+  position: absolute;
+}
+.sidebarOptionsVF {
+  display: block;
+  z-index: +2;
+  background-color: #414143;
+  top: 55px;
+  right: 0px;
+  position: absolute;
+  width: 90px;
+  height: 75px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sidebarBtnOption {
+  text-align: justify;
+  font: 600 16px NeoSans;
+  color: #414143;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+}
+.sidebarBtnOption_Ar {
+  float: right;
+  text-align: justify;
+  font: 400 15px NeoSans-Arabic;
+  color: #414143;
+  margin-top: 6px;
+  background: transparent;
+  border: none;
+}
+.sidebarBtnOption:hover {
+  color: black;
+}
+.sidebarBtnOption:focus {
+  outline: none;
+}
+.sidebarOptionsV {
+  display: block;
+  z-index: +2;
+  background-color: #eaefff;
+  top: 25px;
+  right: 5px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sidebarOptionsV_Ar {
+  display: block;
+  z-index: +2;
+  background-color: #eaefff;
+  top: 25px;
+  left: 5px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sidebarfolderMenu {
+  display: block;
+  z-index: +1;
+  background-color: #eaefff;
+  top: 25px;
+  position: absolute;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 133px;
+  overflow-y: scroll;
+}
+.sidebarfolderMenu_En {
+  left: 5px;
+}
+.sidebarfolderMenu_Ar {
+  right: 5px;
+}
+
+.sidebarfolderMenu::-webkit-scrollbar-thumb {
+  background: #8d8d8d;
+  border-radius: 10px;
+}
+.sidebarfolderMenu::-webkit-scrollbar-track {
+  box-shadow: #414143;
+  border-radius: 3px;
+}
+.sidebarfolderMenu::-webkit-scrollbar {
+  width: 0.5em;
+  background: transparent;
+}
+.sidebarfolderMenuh {
+  font-family: NeoSans;
+  font-weight: 700;
+  font-size: 17px;
+}
+.sidebarfolderMenuh_Ar {
+  font-family: NeoSans-Arabic;
+  font-weight: 400;
+  font-size: 18px;
+}
+.sidebarfolderNamelist {
+  color: #414143;
+  padding: 5px 0px 5px 5px;
+  background-color: transparent;
+  border: none;
+  font: 600 17px NeoSans;
+  width: 120px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sidebarfolderNamelist_Ar {
+  text-align: right;
+}
+.sidebarfolderNamelist_En {
+  text-align: left;
+}
+.sidebarfolderNamelist:focus {
+  outline: none;
+}
+.sidebarimag {
+  margin-top: 0px;
+}
+.button {
+  border: 0.00001px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 0px !important;
+  color: #414143;
+  background-color: #efefef;
+  width: 100%;
+  position: relative;
+  font: 500 16px NeoSans;
+}
+.sidebaroptionBtn {
+  height: auto;
+  width: auto;
+  z-index: +1;
+  top: 0px;
+  right: 0px;
+  border: transparent;
+  display: none;
+  background-color: transparent;
+}
+.sidebaroptionBtn_Ar {
+  height: auto;
+  width: auto;
+  z-index: +1;
+  top: 0px;
+  left: 0px;
+  border: transparent;
+  display: none;
+  background-color: transparent;
+}
+.sidebaroptionBtn:focus,
+.sidebaroptionBtn_Ar:focus {
+  outline: 0;
+}
+.sidebarfolderName {
+  color: white;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.sidebarfolderNameInputFeildDiv {
+  margin-top: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.restore1 {
+  width: 13px;
+}
+.restore2 {
+  width: 14px;
+}
+.restoretrash {
+  width: 14px;
+}
+.sidebarBtnOption span,
+.sidebarBtnOption_Ar span {
+  padding: 0 5px;
+}

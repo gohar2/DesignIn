@@ -1,0 +1,36 @@
+.customClass .leftBg {
+  display: none;
+}
+.customClass .col-md-9 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.customClass {
+  margin: 2rem;
+  text-align: center;
+}
+.customClass .col-md-8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.customClass .AuthenticationBg {
+  height: auto;
+}
+.customClass .AuthenticationBg .position-absolute {
+  position: relative !important;
+}
+.customClass .flex18 {
+  margin-top: 3rem;
+}
+.customClass .loginHeading_Ar,
+.customClass .subltext_Ar {
+  text-align: center;
+}
+.customClass .navbar {
+  padding: 0;
+  width: 100% !important;
+}
+.customClass .loginHeading,
+.customClass .loginHeading_Ar {
+  font-size: 4rem;
+}

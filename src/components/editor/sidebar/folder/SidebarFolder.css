@@ -1,0 +1,163 @@
+.editorFolderDiv {
+  border-radius: 0.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0.5rem;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 5rem;
+  white-space: nowrap;
+}
+.folderWraper:hover .editorFolderDiv {
+  background-color: #333b4a;
+}
+.folderWraper {
+  position: relative;
+  margin: 1.5rem 2rem;
+}
+.folderIcon {
+  width: 4.5rem;
+  height: auto;
+  margin: 0.5rem;
+}
+.folderNameSB {
+  font: 400 2rem NeoSans-Arabic;
+  padding: 0 1.2rem;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.folderOptionBtnSidebar {
+  height: 20px;
+  width: 20px;
+  padding-bottom: 5px;
+}
+.optionSidebar {
+  text-align: justify;
+  color: #414143;
+  font: 400 1.8rem NeoSans;
+  margin-left: 0.8rem;
+}
+.optionSidebar_Ar {
+  text-align: justify;
+  color: #414143;
+  font: 400 1.8rem NeoSans-Arabic;
+  margin-right: 0.8rem;
+}
+.optionIcon {
+  height: auto;
+  width: 2.2rem;
+}
+.optionBtnSidebar {
+  height: auto;
+  width: auto;
+  z-index: +1;
+  top: 1rem;
+  right: 1%;
+  border: transparent;
+  display: none;
+  background-color: transparent;
+}
+.optionBtnSidebar:focus {
+  outline: 0;
+}
+.folderWraper:hover .optionBtnSidebar {
+  display: block;
+  position: absolute;
+}
+.optionBtnSidebar_Ar {
+  height: auto;
+  width: auto;
+  z-index: +1;
+  top: 1rem;
+  left: 1%;
+  border: transparent;
+  display: none;
+  background-color: transparent;
+}
+.optionBtnSidebar_Ar:focus {
+  outline: 0;
+}
+.folderWraper:hover .optionBtnSidebar_Ar {
+  display: block;
+  position: absolute;
+}
+.skeltonDiv {
+  background-color: #414143;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+}
+.btnOptionSidebar {
+  z-index: +1;
+  background: transparent;
+  border: none;
+  display: flex !important;
+  padding: 4px !important;
+}
+.optionsVS {
+  display: block;
+  z-index: +19;
+  background-color: #f4f9f9;
+  top: 50%;
+  right: 1rem;
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+.optionsVS_Ar {
+  display: block;
+  z-index: +19;
+  background-color: #f4f9f9;
+  top: 50%;
+  left: 1rem;
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+.folderNameInputFeildDiv {
+  margin: 2rem;
+}
+.folderNameInputFeild {
+  border-radius: 0.3rem;
+  height: 5rem;
+}
+.tickFolderIconDiv {
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tickFolderIconDiv_Ar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #47bdbe;
+  cursor: pointer;
+}
+.tickFolderIcon {
+  margin: 10px;
+  height: 30px;
+  width: 30px;
+}
+.folderNameInputFeild::placeholder {
+  font: 400 2rem NeoSans;
+}

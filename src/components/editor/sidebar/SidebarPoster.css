@@ -1,0 +1,73 @@
+.sidebarContentPicsContainerDiv {
+  margin: 1rem 2rem 1rem 1rem;
+}
+.titleDiv {
+  color: #ffffff;
+}
+.title_En {
+  font: 400 1.8rem NeoSans;
+  opacity: 1;
+}
+.closeButton svg {
+  width: 1.4rem;
+}
+.title_Ar {
+  font: 400 1.8rem NeoSans-Arabic;
+  opacity: 1;
+}
+.sidebarContentSeeAllLink {
+  float: right;
+  font: 400 1.4rem NeoSans;
+  opacity: 0.65;
+  color: #a4a3a3;
+  text-align: right;
+}
+.sidebarContentSeeAllLink_Ar {
+  float: right;
+  font: 400 1.4rem NeoSans-Arabic;
+  opacity: 0.65;
+  color: #a4a3a3;
+  text-align: left;
+}
+.sidebarContentPicsDiv {
+  display: grid;
+  grid-template-columns: 48.5% 48.5%;
+  grid-gap: 3%;
+  margin: 1.5rem 0;
+}
+.sidebarContentTemplatesDiv {
+  display: grid;
+  grid-template-columns: 48.5% 48.5%;
+  grid-column-gap: 3%;
+  grid-row-gap: 1.4rem;
+  margin-top: 1.5rem;
+}
+.sidebarContentFirstImage {
+  grid-column-start: 1;
+  width: 100%;
+  height: auto;
+}
+.sidebarContentSecondImage {
+  grid-column-start: 2;
+  width: 100%;
+}
+.sidebarContentPicsContainer {
+  max-height: 80%;
+}
+.closeButton {
+  float: right;
+  border: none;
+  width: 20px;
+  padding: 2px;
+  background-color: inherit;
+  color: white;
+}
+.closeButton-arabic {
+  float: left;
+  border: none;
+  width: 20px;
+  padding: 2px;
+  background-color: inherit;
+  color: white;
+  text-align: left;
+}

@@ -1,0 +1,30 @@
+.textBarHeadingDiv {
+  /* display: flex; */
+}
+.textBarHeadingDivflip {
+  height: 24px;
+}
+.textBarHeading {
+  font-size: 15px !important;
+  color: #414143;
+  font-weight: 600;
+}
+.AlignmentHeading {
+  font-size: 17px !important;
+  color: #414143;
+  font-weight: 600;
+  margin-bottom: 8px;
+  /* text-align: center; */
+}
+.headingBtnIcons {
+  height: 16px;
+  width: 16px;
+  padding-top: 0px;
+  margin-bottom: 3px;
+}
+.sidebarContentCloseBtnW {
+  border: none;
+  background-color: transparent;
+  color: #9b9b9b;
+  float: right;
+}

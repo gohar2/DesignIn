@@ -1,0 +1,198 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.background {
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: #ffffff;
+  font: 400 1.8rem NeoSans;
+  text-align: center;
+  margin: 0;
+  padding: 0 0;
+  opacity: 0.9;
+}
+
+.color-selector {
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 3px;
+  position: relative;
+  padding: 6px 32px 6px 10px;
+  font-family: verdana;
+  background: white;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+
+  .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+  }
+
+  .hidden {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.pageColorPickerDiv {
+  margin-right: 10px;
+}
+.page-color-selector {
+  display: inline-block;
+  border-radius: 0.3rem;
+  position: relative;
+  padding: 0;
+  font-family: verdana;
+  backghtml,
+  body,
+  #app {
+    height: 100%;
+  }
+
+  .background {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .title {
+    color: #ffffff;
+    font: 400 1.8rem NeoSans;
+    text-align: center;
+    margin: 0;
+    padding: 0 0;
+    opacity: 0.9;
+  }
+
+  .color-selector {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+    padding: 6px 32px 6px 10px;
+    font-family: verdana;
+    background: white;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(
+      to right,
+      red,
+      orange,
+      yellow,
+      green,
+      blue,
+      indigo,
+      violet
+    );
+
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #eee;
+      margin-right: 10px;
+    }
+
+    .hidden {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .pageColorPickerDiv {
+    margin-right: 10px;
+  }
+  .page-color-selector {
+    display: inline-block;
+    border-radius: 0.3rem;
+    position: relative;
+    padding: 0;
+    font-family: verdana;
+    background: white;
+    width: 6rem;
+    border: 0.1rem solid #ccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4.7rem;
+    // background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-image: url(../../../../../icons/ColorCollectionIcon.png);
+
+    .circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #eee;
+      margin-right: 10px;
+    }
+
+    .hidden {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .overlay {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 105px;
+    transition: 1s;
+
+    &.active {
+      top: calc(-50% + 105px);
+      width: 160%;
+      height: 160%;
+      left: -30%;
+    }
+  }
+  .arabicModecolorPicker {
+    float: right;
+    margin-right: 25px;
+  }
+}

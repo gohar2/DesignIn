@@ -1,0 +1,56 @@
+.imageEffectsTriangleUp {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  margin-left: 35px;
+}
+.imageEffectsDiv {
+  border-radius: 6px;
+  padding: 0px 20px 0px 0px;
+}
+.flex_1 {
+  flex: 1;
+}
+.wraperDivEditor::-webkit-scrollbar-thumb {
+  background: #878787;
+  border-radius: 0.3rem;
+}
+.wraperDiv::-webkit-scrollbar-track {
+  box-shadow: #222834;
+  border-radius: 0.3rem;
+}
+.wraperDivEditor::-webkit-scrollbar {
+  width: 1rem;
+  background: #212734;
+}
+.wraperDivEditor {
+  overflow-y: auto;
+  height: calc(100% - 7rem - 6rem - 2rem);
+}
+.imageEffectsIconsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imageEffectsIcon {
+  background-color: #ecf1f4;
+}
+.imageEffectIconDivContainer {
+  text-align: center;
+  color: #b5b5b5;
+  font: 400 1.6rem NeoSans;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.imageEffectIconDivContainer > h5 {
+  font-size: 1.4rem;
+}
+.imageEffectIconDiv {
+  text-align: center;
+  border: none;
+  margin-bottom: 0.8rem;
+  height: 9.3rem;
+  width: 9.3rem;
+}

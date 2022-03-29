@@ -1,0 +1,120 @@
+.textBarFontSizeDiv:nth-child(2) div {
+  /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.opacitySlider > input[type='range'] {
+  width: 95% !important;
+}
+.opacitySlider .arabicMode {
+  direction: inherit;
+}
+.OpacitySliderDiv {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.textBarFontColorDiv {
+  width: 100%;
+}
+.folderNameInputFeildDiv .arabicMode input {
+  border-radius: 0 !important;
+  border-top-right-radius: 0.3rem !important;
+  border-bottom-right-radius: 0.3rem !important;
+}
+.textBarHeading {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #414143;
+}
+.textBarFontSizeValue {
+  display: inline-block;
+  font: 600 20px NeoSans;
+  margin: 6px auto 0px auto;
+}
+.textBarColorDiv {
+  background-color: #ecf1f4;
+  text-align: center;
+  margin: 0 0 0 5px;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+}
+/* input[type='range'].range-slider {
+  height: 1px;
+}
+.range-slider.range-slider--sm.range-slider--dark {
+  padding-bottom: 25px !important;
+} */
+
+.BalanceColorDiv .balanceSizeValue {
+  display: inline-block;
+  font: 600 16px NeoSans;
+  margin: 12px auto 0px auto;
+  color: #ffffff;
+  /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.opacitySlider > input[type='range'] {
+  width: 95% !important;
+}
+.opacitySlider .arabicMode {
+  direction: inherit;
+}
+.OpacitySliderDiv {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.textBarFontColorDiv {
+  width: 100%;
+}
+.folderNameInputFeildDiv .arabicMode input {
+  border-radius: 0 !important;
+  border-top-right-radius: 0.3rem !important;
+  border-bottom-right-radius: 0.3rem !important;
+}
+.textBarHeading {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #414143;
+}
+.textBarFontSizeValue {
+  display: inline-block;
+  font: 600 20px NeoSans;
+  margin: 6px auto 0px auto;
+}
+.textBarColorDiv {
+  background-color: #ecf1f4;
+  text-align: center;
+  margin: 0 0 0 5px;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+}
+/* input[type='range'].range-slider {
+  height: 1px;
+}
+.range-slider.range-slider--sm.range-slider--dark {
+  padding-bottom: 25px !important;
+} */
+
+.BalanceColorDiv .balanceSizeValue {
+  display: inline-block;
+  font: 600 16px NeoSans;
+  margin: 12px auto 0px auto;
+  color: #ffffff;
+  background: #333b4a;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+}

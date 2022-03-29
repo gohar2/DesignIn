@@ -1,0 +1,53 @@
+.pageContainerSidebar {
+  padding: 3rem 2rem 2rem;
+}
+.pagesContainer {
+  padding: 3rem 2rem 2rem;
+}
+.createPageDiv {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start; */
+}
+.wraperDivPageManager {
+  overflow-y: scroll;
+  max-height: 77%;
+  direction: rtl;
+}
+.directionDiv {
+  direction: ltr;
+}
+.sidebarPage {
+  margin-top: 20px;
+  height: 150px;
+  width: 100%;
+  box-shadow: none;
+  text-align: center;
+}
+.sidebarPageTitle {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .wraperDivPageManager {
+    overflow-y: scroll;
+    max-height: 500px;
+    scrollbar-color: #5f646b #293039 !important;
+  }
+}
+.wraperDivPageManager::-webkit-scrollbar-thumb {
+  background: #878787;
+  border-radius: 10px;
+}
+.wraperDivPageManager::-webkit-scrollbar-track {
+  box-shadow: #222834;
+  border-radius: 3px;
+}
+.wraperDivPageManager::-webkit-scrollbar {
+  width: 0.3em;
+  background: #212734;
+}
+.sidebarPageDiv {
+  padding: 0px;
+}

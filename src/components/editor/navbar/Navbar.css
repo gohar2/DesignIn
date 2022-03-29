@@ -1,0 +1,1415 @@
+.editorNavbar {
+  display: grid;
+  grid-template-columns: 0.975fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #edf0f2;
+  padding: 0px;
+  /* height: 6rem; */
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #414143;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+.backPageBtnNavbar span {
+  font-size: 2rem;
+}
+.backPageBtnNavbar_Ar span {
+  font: 400 2rem NeoSans-Arabic;
+}
+.buyPlanBtnDivNavbar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+}
+.buyPlanBtnNavbar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.975fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #edf0f2;
+  padding: 0px;
+  /* height: 6rem; */
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #414143;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+.backPageBtnNavbar span {
+  font-size: 2rem;
+}
+.backPageBtnNavbar_Ar span {
+  font: 400 2rem NeoSans-Arabic;
+}
+.buyPlanBtnDivNavbar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+}
+.buyPlanBtnNavbar {
+  width: 100%;
+  height: 24px;
+  border-radius: 16px;
+  background-color: #d31c48;
+  color: white;
+  border: none;
+  padding: 3px 0px 0px 0px;
+  font-size: 13px;
+  padding-bottom: 2px;
+}
+
+.dropdown-menu {
+  font-size: 2.2rem !important;
+}
+.downloadBtnDivNavbar {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.downloadBtnNavbar {
+  position: relative;
+  width: 20rem;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  color: white;
+  border: none;
+  font-weight: 600;
+  direction: ltr;
+}
+.downloadList .downloadDropDownList {
+  padding: 1rem 1.7rem;
+  font-family: NeoSans;
+}
+.circle {
+  /*position: absolute; */
+  /* margin-left: 0px; */
+  /* background-color: #6253df; */
+  width: 45px;
+  height: 100%;
+  /* border-radius: 50%; */
+  top: 0px;
+  /* display: flex; */
+  /* align-items: center; */
+  display: contents;
+  /*  justify-content: center; */
+}
+.downloadIconNavbar {
+  margin-right: 4px;
+}
+.downloadBtnNavbar:focus,
+.buyPlanBtnNavbar:focus,
+.backPageBtnNavbar:focus,
+.saveBtnNavbar:focus {
+  outline: 0;
+}
+.arabicLogoDivNavbar {
+  margin-left: 1.3rem;
+  margin-top: 0;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  align-items: center;
+}
+
+.backPageBtnNavbar {
+  border: none;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  color: #ffffff;
+  border-radius: 0.3rem;
+  width: 20rem;
+  align-self: center;
+  height: 4.5rem;
+  padding: 0;
+  position: relative;
+  grid-column-start: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem;
+}
+.backPageBtnNavbar_Ar {
+  direction: revert;
+  border: none;
+  background: linear-gradient(104.08deg, #5a4cce 13.11%, #2b7efb 123.2%);
+  color: #ffffff;
+  border-radius: 0.3rem;
+  width: 20rem;
+  align-self: center;
+  height: 4.5rem;
+  padding: 0;
+  position: relative;
+  grid-column-start: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem;
+}
+
+.saveBtnDivNavbar {
+  grid-column-start: 6;
+  display: flex;
+  align-items: center;
+  grid-column-end: 7;
+}
+.saveBtnNavbar {
+  border: none;
+  background-color: #f7f7f7;
+  color: #f64747;
+  border-radius: 0.3rem;
+  width: 12rem;
+  height: 4.5rem;
+  font: 400 1.8rem NeoSans;
+  margin-top: 0;
+  margin-left: 1.2rem;
+  text-align: center;
+}
+.resizeTabDivNavbar {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  float: right;
+}
+.resizeTabNavbar {
+  background-color: #eaf0ff;
+  border: transparent;
+  width: 100%;
+  height: 24px;
+  border-radius: 19px;
+  font-size: 11px;
+}
+.resizeTabNavbar:focus {
+  outline: 0;
+}
+.instaTabDivNavbar {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  background-color: #eaf0ff;
+}
+.instaTabNavbar {
+  background-color: #f7f7f7;
+  border: transparent;
+  width: 40rem;
+  height: 4.5rem;
+  border-radius: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #414143;
+  font-family: NeoSans;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.instaTabNavbar:focus {
+  outline: 0;
+}
+input[type='text']::placeholder {
+  padding: 0px;
+}
+.currentTabNavbar {
+  float: right;
+  border: none;
+  margin-top: 10px;
+  background-color: white;
+  color: #666666;
+  margin-right: 25px;
+}
+.downloadAstxt {
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: NeoSans;
+  color: #414143;
+  font-style: normal;
+}
+.backPageIcon {
+  width: 2rem;
+  stroke: #fff;
+  stroke-width: 1.2rem !important;
+  margin: 0 0 0 1.2rem;
+}
+.backPageIcon1 {
+  width: 2rem;
+  margin: 0 1.5rem 0 0;
+  height: auto;
+}
+.downloadIcon {
+  width: 2rem;
+  stroke: #fff;
+  stroke-width: 2rem !important;
+  margin: 0 1.2rem 0 0;
+}
+
+.midBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerBorderDownload {
+  border: 1px solid #d0d1ee;
+  border-radius: 20px;
+  margin-top: 6px;
+  padding: 2px 2px 2px 2px;
+  width: 90%;
+}
+.outerBorderInsta {
+  margin-top: 0;
+  /* padding: 0px 0px 0px 123px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.downloadSpan {
+  font: 400 2rem NeoSans;
+}
+.downloadSpan_Ar {
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 400 2rem NeoSans-Arabic;
+}
+.circleBackPageIcon {
+  display: contents;
+}
+
+.navbarList {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: NeoSans-Arabic;
+  color: #414143;
+  transition: color 0.1s linear;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  float: left;
+  padding: 0px;
+  line-height: 26.4px;
+}
+
+.navbarList:focus {
+  outline: 0;
+}
+
+.downloaderDiv {
+  position: fixed;
+  top: -58px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+.downloaderDivOn {
+  position: fixed;
+  top: -58px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: #00000073;
+}
+
+/*  1000 px - 1150px */
+
+@media (min-width: 991px) and (max-width: 1150px) {
+  .objectAlignmentIcon,
+  .objectPositionIcon {
+    height: auto !important;
+    width: 20px !important;
+    margin-bottom: 5px;
+  }
+  .AlignmentHeading {
+    font-size: 14px !important;
+  }
+  .BalanceColorDiv .balanceSizeValue {
+    height: 33px !important;
+    width: 33px !important;
+  }
+  .downloadDropDownList .dropdown-item {
+    font-size: 12px !important;
+  }
+  .designDownDim_ar {
+    margin: 0px !important;
+    line-height: 20px !important;
+  }
+  .editorBarContainer .dropdown-menu {
+    transform: translate(-50%, 45px) !important;
+  }
+  .AlignDropdownWidth {
+    left: -50% !important;
+  }
+
+  .twitter-picker > div:nth-child(3) {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) > span > div {
+    margin: 2px 4px !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .arabicModecolorPicker {
+    margin-right: 0 !important;
+  }
+
+  .sidebarContentContainer {
+    width: 25% !important;
+  }
+  .templatesHead {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 40px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebarContentSearchBarDiv {
+    margin: 0px 12px 0px 12px !important;
+  }
+
+  .closeButton {
+    font-size: 10px !important;
+  }
+
+  .balanceSizeValue,
+  .valueDivSidebar_Ar {
+    display: flex !important;
+    justify-content: center;
+    margin: 0 !important;
+    align-items: center;
+    height: 100%;
+    font-size: 10px !important;
+  }
+  .valueDivSidebar,
+  .valueDivSidebar_Ar {
+    margin: 0 !important;
+    height: 25px !important;
+    width: 25px !important;
+    align-self: center;
+  }
+  .textBarSeparationLine {
+    margin-top: 0 !important;
+  }
+  .textBarIcon {
+    height: 15px !important;
+    width: 15px !important;
+  }
+
+  .editorBarRoundBtnWOB_Ar:hover,
+  .editorBarRoundBtn:hover,
+  .editorBarRoundBtnO_Ar:hover {
+    background-color: #ffffff !important;
+    color: #6253df;
+    height: auto;
+  }
+
+  .alignRightIcon {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .deleteIcon,
+  .lockIcon,
+  .undoIcon {
+    margin: 5px !important;
+    height: 18px !important;
+    width: 18px !important;
+  }
+  .addIcon {
+    height: 16px !important;
+    width: 16px !important;
+  }
+  .redoIcon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 5px 5px !important;
+  }
+  .unLockIcon {
+    margin: 5px !important;
+    height: 18px !important;
+    width: 22px !important;
+  }
+  .editorBarIconDiv {
+    margin-left: 10px !important;
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+  .fontSearchBarDiv {
+    display: flex;
+    border-radius: 4px !important;
+    height: 25px !important;
+  }
+  .fontSearchBar,
+  .fontSearchBar_Ar {
+    font-size: 10px !important;
+    padding-left: 8px !important;
+  }
+  .fontSearchBar_Ar::placeholder {
+    font-size: 10px !important;
+  }
+  .arabicText,
+  .arabicText_Ar {
+    padding: 4px !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .arabicText span {
+    float: right;
+    font-size: 8px !important;
+  }
+
+  .deleteUI {
+    width: 12px !important;
+    height: 12px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .optionUI {
+    font-size: 10px !important;
+    margin-top: 0 !important;
+    margin: 0 2px !important;
+  }
+
+  .foldersContainer {
+    padding: 10px !important;
+  }
+  .btnClass {
+    margin: 0 !important;
+  }
+  .sidebarFolderHeading {
+    font-size: 12px !important;
+    padding: 0 !important;
+    display: flex !important;
+    margin-right: 5px !important;
+    align-items: center;
+  }
+  .sidebarBtnOption,
+  .sidebarBtnOption_Ar {
+    font-size: 10px !important;
+  }
+  .folderOptionBtn {
+    height: 10px !important;
+    width: 14px !important;
+  }
+  .sidebarOptionsV,
+  .sidebarOptionsV_Ar {
+    height: auto !important;
+    width: auto !important;
+  }
+  .mb-3 {
+    margin-bottom: 0.5rem !important;
+  }
+  .folderOptionBtnSidebar {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .tickFolderIcon {
+    margin: 0 !important;
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    align-self: center;
+    height: auto !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .editorBarButtonsDiv {
+    height: 38px !important;
+  }
+  .instaTabNavbar {
+    width: 275px !important;
+  }
+  .backPageBtnNavbar_Ar span {
+    margin: 0 5px !important;
+  }
+  .instaTabNavbar,
+  .instaTabNavbar::placeholder,
+  .saveBtnNavbar {
+    height: 30px !important;
+    font-size: 14px !important;
+  }
+  .navbarContainer {
+    /* height: 48px !important; */
+  }
+  .sidebarWrapperContainer,
+  .editorBarContainer,
+  .sidebarWrapperContainerPageSize1000 {
+    margin-top: 48px !important;
+  }
+  .saveBtnNavbar {
+    width: 75px !important;
+  }
+
+  .flipIcons {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .colorBalanceHeading h5 {
+    font-size: 1rem !important;
+  }
+}
+
+/* 1151 px - 1280px */
+
+@media (min-width: 1151px) and (max-width: 1280px) {
+  .downloadDropDownList .dropdown-item {
+    font-size: 14px !important;
+  }
+  .editorBarRoundBtnWOB_Ar:hover,
+  .editorBarRoundBtn:hover,
+  .editorBarRoundBtnO_Ar:hover {
+    background-color: #ffffff !important;
+    color: #6253df;
+    height: auto;
+  }
+  .sidebarContentContainer {
+    width: 25% !important;
+  }
+
+  .sidebarBtnOption,
+  .sidebarBtnOption_Ar {
+    margin: 4px !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+  }
+  .dataContainer .arabicMode {
+    width: 98% !important;
+  }
+  .sidebarOptionsV_Ar,
+  .sidebarOptionsV {
+    height: auto !important;
+  }
+  label {
+    margin-bottom: 0 !important;
+  }
+
+  .textBarSeparationLine {
+    margin: 30px 0px 0px 0px !important;
+  }
+  .valueDivSidebar {
+    height: 35px !important;
+    margin: 0 !important;
+    width: 35px !important;
+    align-self: flex-end;
+  }
+  .textBarIcon {
+    height: 18px !important;
+    width: 20px !important;
+  }
+  .balanceSizeValue {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontSearchBarDiv {
+    border-radius: 10px !important;
+    height: 35px !important;
+  }
+  .fontSearchBar,
+  .fontSearchBar::placeholder {
+    font-size: 14px !important;
+  }
+  .arabicText,
+  .arabicText_Ar {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+  .folderOptionBtnSidebar {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .foldersContainer {
+    padding: 0 !important;
+  }
+  .sidebarFolderHeading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .btnClass {
+    margin: 0 !important;
+  }
+  .dataContainer {
+    margin-right: 0 !important;
+    grid-template-columns: 49% 49% !important;
+    grid-column-gap: 2% !important;
+    grid-row-gap: 2% !important;
+  }
+  .tickFolderIcon {
+    margin: 0 !important;
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .editorBarRoundBtns {
+    display: flex;
+    align-items: center;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 18px !important;
+    align-self: center;
+    font-weight: 600 !important;
+    height: 28px !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+
+  .editorBarIconDiv {
+    grid-template-columns: 25% 25% 25% 25% !important;
+  }
+  .editorBarIconDiv {
+    margin-left: 15px !important;
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+  .deleteIcon,
+  .lockIcon,
+  .undoIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .sidebarContent {
+    width: 93% !important;
+  }
+  .redoIcon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 5px 5px !important;
+  }
+  .unLockIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 25px !important;
+  }
+
+  .flipTriangleUp,
+  .opacityTriangleUp {
+    display: none;
+  }
+  .flipDiv {
+    width: auto !important;
+  }
+
+  .editorBarContainer .dropdown-menu {
+    transform: translate(-50%, 45px) !important;
+  }
+  .flipIcons {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .AlignDropdownWidth {
+    left: -50% !important;
+  }
+
+  .templatesHead {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+  .alignRightIcon {
+    height: 17px !important;
+    width: 17px !important;
+  }
+  .valueDivSidebar_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 15px 25px 0px 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .btnOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deleteUI {
+    width: 18px !important;
+    height: 18px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .optionUI {
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    margin: 0 8px !important;
+    font-weight: 400 !important;
+  }
+  .imageEffectsDiv {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) > span > div {
+    margin: 2px 4px !important;
+  }
+  .arabicModecolorPicker {
+    margin-right: 0 !important;
+  }
+}
+
+/*  1281 px - 1441 px*/
+
+@media (min-width: 1281px) and (max-width: 1441px) {
+  .objectAlignmentIcon {
+    height: auto !important;
+    width: 24px !important;
+    margin-bottom: 5px;
+  }
+  .addIcon {
+    height: 24px !important;
+    width: 24px !important;
+  }
+  .sidebarContentContainer {
+    width: 25% !important;
+  }
+
+  .alignRightIcon {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .sidebarBtnOption,
+  .sidebarBtnOption_Ar {
+    margin: 0px !important;
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    word-break: break-all;
+  }
+
+  .dataContainer .arabicMode {
+    width: 98% !important;
+  }
+  .sidebarOptionsV_Ar,
+  .sidebarOptionsV {
+    height: auto !important;
+  }
+  label {
+    margin-bottom: 0 !important;
+  }
+  .textBarSeparationLine {
+    margin: 30px 0px 0px 0px !important;
+  }
+  .valueDivSidebar {
+    height: 35px !important;
+    margin: 0 !important;
+    align-self: flex-end;
+    width: 35px !important;
+  }
+  .textBarIcon {
+    height: 18px !important;
+    width: 20px !important;
+  }
+  .balanceSizeValue {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    display: flex !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontSearchBarDiv {
+    border-radius: 10px !important;
+    height: 35px !important;
+  }
+  .fontSearchBar,
+  .fontSearchBar::placeholder {
+    font-size: 14px !important;
+  }
+  .arabicText,
+  .arabicText_Ar {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .folderOptionBtnSidebar {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .foldersContainer {
+    padding: 0 !important;
+  }
+  .sidebarFolderHeading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .btnClass {
+    margin: 0 !important;
+  }
+  .dataContainer {
+    margin-right: 0 !important;
+    grid-template-columns: 49% 49% !important;
+    grid-column-gap: 2% !important;
+    grid-row-gap: 2% !important;
+  }
+  .tickFolderIcon {
+    margin: 0 !important;
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .editorBarRoundBtns {
+    display: flex;
+    align-items: center;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 18px !important;
+    align-self: center;
+    font-weight: 600 !important;
+    height: 28px !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    align-self: center;
+    height: 28px !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .editorBarIconDiv {
+    grid-template-columns: 25% 25% 25% 25% !important;
+  }
+  .editorBarIconDiv {
+    margin-left: 15px !important;
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+  .deleteIcon,
+  .lockIcon,
+  .undoIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .sidebarContent {
+    width: 93% !important;
+  }
+  .redoIcon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 5px 5px !important;
+  }
+  .unLockIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 25px !important;
+  }
+
+  .flipTriangleUp,
+  .opacityTriangleUp {
+    display: none;
+  }
+  .flipDiv {
+    width: auto !important;
+  }
+
+  .editorBarContainer .dropdown-menu {
+    transform: translate(-50%, 45px) !important;
+  }
+  .flipIcons {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .objectPositionIcon {
+    height: auto !important;
+    width: 24px !important;
+  }
+  .AlignDropdownWidth {
+    left: -50% !important;
+  }
+
+  .templatesHead {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+
+  .valueDivSidebar_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 15px 25px 0px 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .btnOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deleteUI {
+    width: 16px !important;
+    height: 16px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .optionUI {
+    font-size: 14px !important;
+    margin-top: 0 !important;
+    margin: 0 8px !important;
+    font-weight: 400 !important;
+  }
+  .imageEffectsDiv {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) > span > div {
+    margin: 2px 4px !important;
+  }
+  .arabicModecolorPicker {
+    margin-right: 0 !important;
+  }
+}
+
+/* 1441 px - 1600 px */
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+  .sidebarBtnOption,
+  .sidebarBtnOption_Ar {
+    margin: 4px !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    padding: 0;
+  }
+
+  .sidebarContentContainer {
+    width: 25% !important;
+  }
+  .dataContainer .arabicMode {
+    width: 98% !important;
+  }
+  .sidebarOptionsV_Ar,
+  .sidebarOptionsV {
+    height: auto !important;
+  }
+  label {
+    margin-bottom: 0 !important;
+  }
+
+  .textBarSeparationLine {
+    margin: 30px 0px 0px 0px !important;
+  }
+  .valueDivSidebar {
+    height: 35px !important;
+    margin: 0 !important;
+    align-self: flex-end;
+    width: 35px !important;
+  }
+  .textBarIcon {
+    height: 18px !important;
+    width: 20px !important;
+  }
+  .balanceSizeValue {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontSearchBarDiv {
+    border-radius: 10px !important;
+    height: 35px !important;
+  }
+  .fontSearchBar,
+  .fontSearchBar::placeholder {
+    font-size: 14px !important;
+  }
+  .arabicText,
+  .arabicText_Ar {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+  .folderOptionBtnSidebar {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .foldersContainer {
+    padding: 0 !important;
+  }
+  .sidebarFolderHeading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .btnClass {
+    margin: 0 !important;
+  }
+  .dataContainer {
+    margin-right: 0 !important;
+    grid-template-columns: 49% 49% !important;
+    grid-column-gap: 2% !important;
+    grid-row-gap: 2% !important;
+  }
+  .tickFolderIcon {
+    margin: 0 !important;
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .editorBarRoundBtns {
+    display: flex;
+    align-items: center;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 18px !important;
+    align-self: center;
+    font-weight: 600 !important;
+    height: 28px !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .editorBarIconDiv {
+    grid-template-columns: 25% 25% 25% 25% !important;
+  }
+  .editorBarIconDiv {
+    margin-left: 15px !important;
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+  .deleteIcon,
+  .lockIcon,
+  .undoIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  .sidebarContent {
+    width: 93% !important;
+  }
+  .redoIcon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 5px 5px !important;
+  }
+  .unLockIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 25px !important;
+  }
+
+  .flipTriangleUp,
+  .opacityTriangleUp {
+    display: none;
+  }
+  .flipDiv {
+    width: auto !important;
+  }
+
+  .editorBarContainer .dropdown-menu {
+    transform: translate(-50%, 45px) !important;
+  }
+  .flipIcons {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .AlignDropdownWidth {
+    left: -50% !important;
+  }
+
+  .templatesHead {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+
+  .valueDivSidebar_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 15px 25px 0px 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .btnOption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deleteUI {
+    width: 18px !important;
+    height: 18px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .optionUI {
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    margin: 0 8px !important;
+    font-weight: 400 !important;
+  }
+  .imageEffectsDiv {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) > span > div {
+    margin: 2px 4px !important;
+  }
+  .arabicModecolorPicker {
+    margin-right: 0 !important;
+  }
+}
+
+/* 1601 px - 1919 px */
+@media (min-width: 1601px) {
+  .sidebarBtnOption,
+  .sidebarBtnOption_Ar {
+    margin: 4px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: 0;
+  }
+
+  .optionsUI_Ar span.optionUI {
+    font-size: 18px !important;
+  }
+  /* .sidebarContentSearchBar .arabicMode::placeholder {
+    font-size: 14px !important;
+  } */
+
+  .dataContainer .arabicMode {
+    width: 98% !important;
+  }
+  .sidebarOptionsV_Ar,
+  .sidebarOptionsV {
+    height: auto !important;
+  }
+  label {
+    margin-bottom: 0 !important;
+  }
+  .valueDivSidebar {
+    height: 40px !important;
+    margin: 0 !important;
+    width: 40px !important;
+    align-self: flex-end;
+  }
+  .balanceSizeValue {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fontSearchBarDiv {
+    border-radius: 10px !important;
+    height: 40px !important;
+  }
+  .arabicText,
+  .arabicText_Ar {
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+  .folderOptionBtnSidebar {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .foldersContainer {
+    padding: 0 !important;
+  }
+  .sidebarFolderHeading {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+  .btnClass {
+    margin: 0 !important;
+  }
+  .dataContainer {
+    margin-right: 0 !important;
+    grid-template-columns: 49% 49% !important;
+    grid-column-gap: 2% !important;
+    grid-row-gap: 2% !important;
+  }
+
+  .tickFolderIcon {
+    margin: 0 !important;
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .editorBarRoundBtns {
+    display: flex;
+    align-items: center;
+  }
+  .editorBarRoundBtnO,
+  .editorBarRoundBtnO_Ar {
+    margin-top: 0 !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    align-self: center;
+    height: 28px !important;
+    width: auto !important;
+    padding: 0px 10px 0px 10px !important;
+  }
+  .editorBarIconDiv {
+    grid-template-columns: 25% 25% 25% 25% !important;
+  }
+  .editorBarIconDiv {
+    margin-left: 15px !important;
+    display: flex !important;
+    justify-content: start;
+    align-items: center;
+  }
+  .deleteIcon,
+  .lockIcon,
+  .undoIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .redoIcon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 15px 5px 5px !important;
+  }
+  .unLockIcon {
+    margin: 5px !important;
+    height: 20px !important;
+    width: 25px !important;
+  }
+
+  .flipTriangleUp,
+  .opacityTriangleUp {
+    display: none;
+  }
+  .flipDiv {
+    width: auto !important;
+  }
+
+  .downloadDropDownList .dropdown-item {
+    font-size: 16px !important;
+    padding: 2px 10px !important;
+  }
+  .editorBarContainer .dropdown-menu {
+    transform: translate(-50%, 45px) !important;
+  }
+  .flipIcons {
+    width: 24px !important;
+    height: 24px !important;
+  }
+
+  .AlignDropdownWidth {
+    left: -50% !important;
+  }
+
+  .templatesHead {
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title_Ar {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+
+  .valueDivSidebar_Ar {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin: 15px 25px 0px 0px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 40px !important;
+    width: 50px !important;
+  }
+  .btnOption {
+    display: flex;
+    align-items: center;
+  }
+  .deleteUI {
+    width: 18px !important;
+    height: 18px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+  .optionUI {
+    font-size: 16px !important;
+    margin-top: 0 !important;
+    margin: 0 8px !important;
+    font-weight: 400 !important;
+  }
+
+  .imageEffectsDiv {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) {
+    padding: 0 !important;
+  }
+
+  .twitter-picker > div:nth-child(3) > span > div {
+    margin: 2px 4px !important;
+  }
+  .arabicModecolorPicker {
+    margin-right: 0 !important;
+  }
+}
